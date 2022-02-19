@@ -1,0 +1,323 @@
+{
+  "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
+  "configVersion": 4,
+  "lang": "en_us",
+  "startingBlocks": 100000,
+  "maxClaimBlocks": -1,
+  "ticksForNextBlock": 1200,
+  "minClaimsize": 100,
+  "defaultClaimDepth": 50,
+  "maxClaims": 2,
+  "defaultClaimName": "",
+  "defaultEnterMessage": "",
+  "defaultLeaveMessage": "",
+  "blacklistedWorlds": [
+    "minecraft:the_nether",
+    "minecraft:the_end",
+    "mining_dims:caving_dim",
+    "mining_dims:hunting_dim",
+    "mining_dims:mining_dim",
+    "mining_dims:nethering_dim",
+    "mining_dims:climbing_dim",
+    "voidz:void"
+  ],
+  "worldWhitelist": false,
+  "claimingItem": "minecraft:golden_hoe",
+  "inspectionItem": "minecraft:apple",
+  "claimDisplayTime": 1300,
+  "permissionLevel": 2,
+  "buySellHandler": {
+    "buyType": "MONEY",
+    "sellType": "MONEY",
+    "buyValue": -1.0,
+    "sellValue": -1.0,
+    "ingredient": []
+  },
+  "maxBuyBlocks": -1,
+  "lenientBlockEntityCheck": false,
+  "breakBlockBlacklist": [
+    "universal_graves:grave",
+    "graves",
+    "minecraft:player_head"
+  ],
+  "interactBlockBlacklist": [
+    "universal_graves:grave",
+    "minecraft:player_head"
+  ],
+  "breakBlockEntityTagBlacklist": [],
+  "interactBlockEntityTagBlacklist": [
+    "IsDeathChest",
+    "gunpowder.owner",
+    "shop-activated"
+  ],
+  "ignoredEntities": [
+    "corpse:corpse"
+  ],
+  "entityTagIgnore": [
+    "graves.marker"
+  ],
+  "customItemPermission": [
+    "@c:wrenches-INTERACTBLOCK"
+  ],
+  "customBlockPermission": [],
+  "dropTicks": 6000,
+  "inactivityTimeDays": 21,
+  "inactivityBlocksMax": 5000,
+  "deletePlayerFile": false,
+  "bannedDeletionTime": 30,
+  "offlineProtectActivation": -1,
+  "enableLogs": false,
+  "defaultGroups": {
+    "Visitor": {
+      "BED": true,
+      "ENCHANTMENT": true,
+      "FENCEGATE": true,
+      "PRESSUREPLATE": true,
+      "ITEMFRAMEROTATE": true,
+      "ENDERCHEST": true,
+      "BUTTONLEVER": true,
+      "TRADING": true,
+      "DOOR": true,
+      "TRAPDOOR": true,
+      "PORTAL": true
+    },
+    "Co-Owner": {
+      "WATERBORDER": true,
+      "ENCHANTMENT": true,
+      "REDSTONE": true,
+      "ENDERPEARL": true,
+      "BUCKET": true,
+      "ARMORSTAND": true,
+      "DOOR": true,
+      "FENCEGATE": true,
+      "ANVIL": true,
+      "MINECART": true,
+      "BREAK": true,
+      "CANSTAY": true,
+      "PRESSUREPLATE": true,
+      "PISTONBORDER": true,
+      "LIGHTNING": true,
+      "RAID": true,
+      "TRADING": true,
+      "HURTANIMAL": true,
+      "SNOWGOLEM": true,
+      "LECTERNTAKE": true,
+      "FLIGHT": true,
+      "TELEPORT": true,
+      "FROSTWALKER": true,
+      "INTERACTBLOCK": true,
+      "EDITCLAIM": true,
+      "ENDERMAN": true,
+      "ENDCRYSTALPLACE": true,
+      "EDITPOTIONS": true,
+      "TARGETBLOCK": true,
+      "OPENCONTAINER": true,
+      "ITEMFRAMEROTATE": true,
+      "BEACON": true,
+      "TRAPDOOR": true,
+      "DROP": true,
+      "PROJECTILES": true,
+      "WITHER": true,
+      "ANIMALSPAWN": true,
+      "CHORUSFRUIT": true,
+      "PICKUP": true,
+      "BUTTONLEVER": true,
+      "NOTEBLOCK": true,
+      "EDITPERMS": true,
+      "BOAT": true,
+      "FIRESPREAD": true,
+      "BED": true,
+      "BREAKNONLIVING": true,
+      "NOHUNGER": true,
+      "LOCKITEMS": true,
+      "MOBSPAWN": true,
+      "PLACE": true,
+      "TRAMPLE": true,
+      "HURTPLAYER": true,
+      "PORTAL": true,
+      "EXPLOSIONS": true,
+      "ANIMALINTERACT": true,
+      "XP": true,
+      "ENDERCHEST": true,
+      "JUKEBOX": true
+    }
+  },
+  "globalDefaultPerms": {
+    "voidz:void": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "ae2:spatial_storage": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "minecraft:overworld": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:moon_surface": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "mining_dims:caving_dim": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:io": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "spectrum:deeper_down_dimension": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:venus_surface": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:ganymede": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:titan": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:mercury": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "minecraft:the_nether": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "mining_dims:climbing_dim": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "mining_dims:nethering_dim": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "minecraft:the_end": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:europa_ocean": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "mining_dims:hunting_dim": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "mining_dims:mining_dim": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:red_planet": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:starship_1": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:venus_clouds": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    },
+    "agape:europa_surface": {
+      "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLTRUE",
+      "FLIGHT": "ALLTRUE",
+      "MOBSPAWN": "ALLFALSE",
+      "EDITPOTIONS": "ALLFALSE",
+      "TELEPORT": "ALLFALSE"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+[01:54:31] [INFO ] Loaded script server_scripts:tags.js in 0.0 s
+[01:54:31] [INFO ] Loaded script server_scripts:conflicts.js in 0.009 s
+[01:54:31] [INFO ] Loaded script server_scripts:consistencyplus/remove.js in 0.002 s
+[01:54:31] [INFO ] Loaded script server_scripts:mcdw.js in 0.005 s
+[01:54:31] [INFO ] Loaded script server_scripts:seeds.js in 0.004 s
+[01:54:31] [INFO ] Another Quality Modpack 2...... Running KubeJS....... 
+[01:54:31] [INFO ] Loaded script server_scripts:welcome.js in 0.0 s
+[01:54:31] [INFO ] Loaded script server_scripts:unification.js in 0.011 s
+[01:54:31] [INFO ] Loaded script server_scripts:balance.js in 0.015 s
+[01:54:31] [INFO ] Loaded script server_scripts:remove.js in 0.002 s
+[01:54:31] [INFO ] Loaded script server_scripts:gobber/constants.js in 0.001 s
+[01:54:31] [INFO ] Loaded 10/10 KubeJS server scripts in 0.061 s
+[01:54:31] [INFO ] Scripts loaded
+[01:54:31] [INFO ] Scanning recipes...
+[01:54:31] [INFO ] [fluids] Found 8 tags, added 0 objects, removed 0 objects
+[01:54:31] [INFO ] [game_events] Found 2 tags, added 0 objects, removed 0 objects
+[01:54:31] [INFO ] [entity_types] Found 59 tags, added 0 objects, removed 0 objects
+[01:54:32] [INFO ] [functions] Found 2 tags, added 0 objects, removed 0 objects
+[01:54:32] [INFO ] [blocks] Found 729 tags, added 0 objects, removed 0 objects
+[01:54:33] [ERR  ] Error occurred while handling event 'tags.items': TypeError: Cannot find function kjsextras_getAllIds in object items:c:aluminum_blocks. (server_scripts:unification.js#80)
+[01:54:33] [INFO ] [items] Found 1962 tags, added 1 objects, removed 0 objects
+[01:54:36] [INFO ] Found 23459 recipes and 0 failed recipes in 745.1 ms
+[01:54:37] [INFO ] Posted recipe events in 1.680 s
+[01:54:37] [INFO ] Modified & removed recipes in 252.2 ms
+[01:54:37] [WARN ] Error creating recipe kubejs:kjs_4mbduk6hp1lmwg54p1jbeqgno[kubejs:shaped]: {"type":"kubejs:shaped","result":{"item":"croparia:seed_crop_copper","count":1},"pattern":["isi","sps","isi"],"key":{"i":{"tag":"c:seeds"},"s":{"item":"minecraft:air"},"p":{"item":"croparia:croparia2"}}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[01:54:37] [INFO ] Added recipes in 11.42 ms
+[01:54:38] [INFO ] Added 65 recipes, removed 382 recipes, modified 193 recipes, with 1 failed recipes and 0 fall-backed recipes
+[01:55:04] [INFO ] [biomes] Found 0 tags, added 0 objects, removed 0 objects
